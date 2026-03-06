@@ -31,7 +31,7 @@ with open(out_path, 'w') as f:
   pass
 model_path = args.model_path
 
-tokenizer_test = AutoTokenizer.from_pretrained(model_path, token = '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')
+tokenizer_test = AutoTokenizer.from_pretrained(model_path, token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') # Your access key of hugging face
 model_test = AutoModelForCausalLM.from_pretrained(
     model_path, device_map='auto', token = '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'
 )
