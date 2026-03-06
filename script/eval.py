@@ -33,7 +33,7 @@ model_path = args.model_path
 
 tokenizer_test = AutoTokenizer.from_pretrained(model_path, token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') # Your access key of hugging face
 model_test = AutoModelForCausalLM.from_pretrained(
-    model_path, device_map='auto', token = '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'
+    model_path, device_map='auto', token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # Your access key of hugging face
 )
 
 def complete_chat(
