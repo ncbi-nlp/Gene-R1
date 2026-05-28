@@ -15,10 +15,14 @@ The model contains three versions:
 
 
 # Model Deployment for Private Gene Set Analysis
+## Evaluation
 Refer to ``` script/eval.py ```
 
-## Data Aviable
-Please email ```zhizheng.wang@nih.gov``` and ```zhiyong.lu@nih.gov``` for the training gene-set data.
+## Finetuning on your own data
+Refer to ``` script/sft.py ```, ``` script/grpo.py ```, and ``` script/utils.py ```
+
+## Finetuning using our data
+Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for the training gene-set data.
 
 # The expected output looks like:
 ```
