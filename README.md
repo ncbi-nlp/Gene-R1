@@ -17,6 +17,8 @@ The model contains three versions:
 # Model Deployment for Private Gene Set Analysis
 Refer to ``` script/eval.py ```
 
+## Data Aviable
+Please email ```zhizheng.wang@nih.gov``` and ```zhiyong.lu@nih.gov``` for the training gene-set data.
 
 # The expected output looks like:
 ```
