@@ -13,6 +13,7 @@ The model contains three versions:
 - [Gene-R1-8B](https://huggingface.co/ncbi/Gene-R1-8B): A version fine-tuned based on the Llama-3.1-8B-Instruct.
 - [Gene-R1-1B](https://huggingface.co/ncbi/Gene-R1-1B): A version fine-tuned based on the Llama-3.2-1B-Instruct.
 - [Gene-R1-3B](https://huggingface.co/ncbi/Gene-R1-3B): A version fine-tuned based on the Llama-3.2-3B-Instruct.
+
 **More details of model usage can be referred at our Hugging Face: [HF](https://huggingface.co/ncbi/Gene-R1-8B)**
 
 # Model Deployment for Private Gene Set Analysis
