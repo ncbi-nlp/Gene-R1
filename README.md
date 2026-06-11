@@ -5,9 +5,7 @@
 - Gene-R1 is a data-augmented learning framework that equips lightweight and open-source LLMs with step-by-step reasoning capabilities tailored to the gene set analysis task. 
 - It has been fine-tuned by ~270K gene sets collected from 16 genomic databases.
 - Experimental results demonstrate that Gene-R1 achieves substantial performance gains, matching commercial LLMs.
-- For more details, please check out our [paper](https://www.worldscientific.com/doi/abs/10.1142/9789819824755_0035) (PSB, 2026).
-
-[A typo correction for the paper: **In Table 3, the "Avg. #Genes" values ​​for NeST and MsigDB should be 50.67 and 112.00, respectively. The current values ​​of 2.2 and 3.0 actually represent the average number of words in the ground-truth functional terms.**]
+- For more details, please check out our [paper](https://www.worldscientific.com/doi/abs/10.1142/9789819824755_0035) (PSB, 2026). [A typo correction for the paper: **In Table 3, the "Avg. #Genes" values ​​for NeST and MsigDB should be 50.67 and 112.00, respectively. The current values ​​of 2.2 and 3.0 actually represent the average number of words in the ground-truth functional terms.**]
 
 
 **Gene-R1 helps for gene set analysis through fine-tuned small language models (SLMs) that can be locally deployed.** 
