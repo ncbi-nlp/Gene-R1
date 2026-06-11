@@ -6,13 +6,15 @@
 - It has been fine-tuned by ~270K gene sets collected from 16 genomic databases.
 - Experimental results demonstrate that Gene-R1 achieves substantial performance gains, matching commercial LLMs.
 - For more details, please check out our [paper](https://www.worldscientific.com/doi/abs/10.1142/9789819824755_0035) (PSB, 2026).
+[A typo correction for the paper: **In Table 3, the "Avg. #Genes" values ​​for NeST and MsigDB should be 50.67 and 112.00, respectively. The current values ​​of 2.2 and 3.0 actually represent the average number of words in the ground-truth functional terms.**.]
+
 
 **Gene-R1 helps for gene set analysis through fine-tuned small language models (SLMs) that can be locally deployed.** 
 The model contains three versions:
 - [Gene-R1-8B](https://huggingface.co/ncbi/Gene-R1-8B): A version fine-tuned based on the Llama-3.1-8B-Instruct.
 - [Gene-R1-1B](https://huggingface.co/ncbi/Gene-R1-1B): A version fine-tuned based on the Llama-3.2-1B-Instruct.
 - [Gene-R1-3B](https://huggingface.co/ncbi/Gene-R1-3B): A version fine-tuned based on the Llama-3.2-3B-Instruct.
-
+**More details of model usage can be referred at our Hugging Face: [HF](https://huggingface.co/ncbi/Gene-R1-8B)**
 
 # Model Deployment for Private Gene Set Analysis
 ## Evaluation
@@ -23,6 +25,9 @@ Refer to ``` script/sft.py ```, ``` script/grpo.py ```, and ``` script/utils.py 
 
 ## Finetuning using our data
 Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for the training gene-set data.
+
+## Evaluation on our data
+Refer to ```test``` folder where contains all test datasets used in Gene-R1.
 
 # The expected output looks like:
 ```
@@ -53,7 +58,6 @@ Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for the traini
 
 ⚠️ **Notice: The outputs sometimes are not following the instruction, you can try again if this case occurs.**
 
-More details of model usage can be referred at our Hugging Face: [HF](https://huggingface.co/ncbi/Gene-R1-8B)
 
 # Acknowledgments
 
