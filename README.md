@@ -24,7 +24,7 @@ Refer to ``` script/eval.py ```
 Refer to ``` script/sft.py ```, ``` script/grpo.py ```, and ``` script/utils.py ```
 
 ## Finetuning using our data
-Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for the training gene-set data.
+Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for details.
 
 ## Evaluation on our data
 Refer to ```test``` folder where contains all test datasets used in Gene-R1.
