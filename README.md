@@ -23,7 +23,7 @@ Refer to ``` script/eval.py ```
 ## Finetuning on your own data
 Refer to ``` script/sft.py ```, ``` script/grpo.py ```, and ``` script/utils.py ```
 
-## Finetuning using our data
+## Finetuning data used in Gene-R1
 Please email **zhizheng.wang@nih.gov** and **zhiyong.lu@nih.gov** for details.
 
 ## Evaluation on our data
